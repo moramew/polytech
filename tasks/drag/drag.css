@@ -1,0 +1,43 @@
+.main .contaiter {
+  width: 100%;
+  height: 80dvh;
+}
+
+.field {
+  width: 800px;
+  height: 500px;
+  background: white;
+  overflow: hidden;
+}
+
+.field img {
+  height: 100px;
+  transform: rotate(360deg);
+}
+
+.buttons {
+  display: flex;
+}
+
+.border {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.anim {
+  border: 1px solid green;
+  animation: animat 1s;
+  border-radius: 10px;
+}
+
+@keyframes animat {
+  from {
+    transform: scale(-1, 1);
+  }
+  50% {
+    transform: scale(2, 1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}

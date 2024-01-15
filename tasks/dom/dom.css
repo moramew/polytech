@@ -1,0 +1,27 @@
+.class1 {
+  background-color: rgb(250, 254, 225);
+}
+
+.class2 {
+  background-color: rgb(198, 216, 250);
+}
+
+#rand {
+  padding: 1em;
+}
+
+p {
+  min-width: 40dvw;
+  font-size: large;
+  line-height: 100%;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+span {
+  margin-right: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
