@@ -92,7 +92,7 @@ body {
 #cover {
   width: 100%;
   height: 100dvh;
-  background-image: url("polytech/img/fl5.jpg");
+  background-image: url("https://github.com/moramew/polytech/blob/main/img/fl5.jpg?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
