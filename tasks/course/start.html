@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="start.css" />
+  </head>
+  <body>
+    <header class="header"></header>
+    <main class="main">
+      <div class="hello">
+        <input id="name" type="text" placeholder="Введите имя" />
+        <button id="start">СТАРТ</button>
+      </div>
+      <h1 class="hi">Привет,</h1>
+      <div class="buttons">
+        <button
+          id="level1"
+          class="notlocked"
+          onclick="document.location='game1/game1.html'"
+        >
+          Уровень 1
+        </button>
+        <button id="level2" class="locked" onclick="toLevel2()">
+          Уровень 2
+        </button>
+        <button id="level3" class="locked" onclick="toLevel3()">
+          Уровень 3
+        </button>
+        <button id="rate" class="notlocked" onclick="toScore()">Рейтинг</button>
+        <button id="level3" class="notlocked" onclick="exit()">Выйти</button>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+    <script src="start.js"></script>
+  </body>
+</html>

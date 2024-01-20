@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Montserrat+Alternates&family=Tangerine:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  /* overflow: hidden; */
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(35, 33, 33);
+}
+
+.hello {
+  /* position: absolute; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* width: 100dvw;
+  height: 100dvh; */
+  width: 100%;
+  height: 100%;
+  border: 1px solid green;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(162, 160, 182);
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hello input {
+  height: 10%;
+  width: 40%;
+  border: 2px solid rgb(121, 111, 147);
+  font-size: calc(28px + 0.9dvw);
+  text-align: center;
+}
+
+.hello button {
+  height: 10%;
+  width: 20%;
+  margin-top: 2%;
+  font-size: calc(32px + 1dvw);
+  border-radius: 5%;
+  background-color: rgb(238, 204, 168);
+  font-weight: 600;
+}
+
+.hello button:active {
+  background-color: rgb(208, 174, 138);
+}
+
+.hidden {
+  display: none;
+}
+
+.hi {
+  font-size: calc(32px + 2dvw);
+  text-align: center;
+  color: azure;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+  max-width: 300px;
+}
+
+.buttons button {
+  height: 30%;
+  width: 100%;
+  margin: 2%;
+  font-size: calc(16px + 1dvw);
+  font-weight: 800;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.notlocked {
+  background-color: rgb(220, 171, 111);
+}
+
+.notlocked:hover {
+  background-color: rgb(240, 188, 124);
+}
+
+.locked {
+  background-color: rgb(128, 116, 101);
+  border: none;
+}
+
+.locked:hover {
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .hello input {
+    font-size: calc(32px + 1dvw);
+    width: 90dvw;
+  }
+
+  .hello button {
+    width: 80dvw;
+    font-size: calc(32px + 1dvw);
+  }
+
+  .hi {
+    font-size: calc(40px + 3dvw);
+  }
+
+  .buttons {
+    width: 70dvw;
+    height: 30%;
+  }
+
+  .buttons button {
+    width: 100%;
+    height: 20%;
+  }
+}
